@@ -34,6 +34,8 @@ public class DoubleFieldMetrics extends FieldMetrics<Double> {
   }
 
   public static class Builder {
+	  adfsadsf
+		  asdfadsf
     private final int id;
     private long valueCount = 0;
     private long nanValueCount = 0;
