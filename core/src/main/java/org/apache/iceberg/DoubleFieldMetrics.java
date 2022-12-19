@@ -28,6 +28,7 @@ package org.apache.iceberg;
 public class DoubleFieldMetrics extends FieldMetrics<Double> {
 
   private DoubleFieldMetrics(
+
       int id, long valueCount, long nanValueCount, Double lowerBound, Double upperBound) {
     super(id, valueCount, 0L, nanValueCount, lowerBound, upperBound);
   }
